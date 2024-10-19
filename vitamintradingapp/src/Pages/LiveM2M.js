@@ -4,7 +4,7 @@ import '../CssFiles/M2MBoard.css';
 
 function LiveM2M() {
     return (
-            <Card className="my-4 M2MCard">
+            <Card className="M2MCard" style={{marginTop:'4%'}}>
                 <Card.Header className="CardBadge"><span style={{color:'white',fontSize:'23px',fontWeight:400}}>Live M2M under: ACCOUNT2</span></Card.Header>
                 <Card.Body style={{marginTop:'0.5%'}}>
                     <Table style={{backgroundColor:'rgba(32, 41, 64, 0.5)'}}>
