@@ -1,0 +1,94 @@
+.sidebar {
+    background-color: #1f283e;
+    color: white;
+    position: relative;
+    height: calc(100vh - 63px);
+    overflow: auto;
+    width: 260px !important;
+    z-index: 4;
+    padding-bottom: 30px;
+}
+
+.dasboarditems {
+    /* display: flex !important;
+    flex-wrap: wrap !important; */
+    padding: 20px;
+    /* padding-left: 5rem; */
+    margin-bottom: 0;
+    justify-content: center !important;
+    list-style: none !important;
+}
+
+.SideListItem {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.SideListItem:hover {
+    background-color: rgb(158, 158, 158);
+}
+
+/* .sidebar .dasboarditems li a {
+    margin: 10px 15px 0;
+    border-radius: 3px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.PageLink{
+    display: block;
+    padding: .625rem .9375rem;
+} */
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+    border-radius: 4px !important;
+    transition: all 0.3s ease-in;
+}
+
+
+/* a:hover {
+    background-color: #7b7b7b; 
+    color: #ffffff; 
+          
+} */
+
+ a:hover{
+    border-radius: 6px !important;
+    background-color: rgba(136, 136, 136, 0.5);
+    /* background-color: red; */
+}
+
+a.active {
+    background: linear-gradient(60deg, #288c6c, #4ea752);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(76, 175, 80, .4);
+    color: #ffffff; 
+    border-radius: 14px;           
+}
+
+
+/* a.active:hover {
+    background-color: #43A047; 
+} */
+
+a{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    padding-right: 10px ;
+    padding-left: 10px ;
+    margin-left: 1rem;
+}
+
+.Icon-Container{
+    display: flex;
+    margin: 10px 11px 0px;
+}

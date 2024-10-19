@@ -1,0 +1,43 @@
+.M2MCard {
+    background-color: #202940 !important;
+    margin: 1.875rem auto;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    margin: 10px 35px 0px;
+    width: 150% !important;
+
+}
+
+.my-4{
+    margin-top: 3% !important;
+}
+
+ th , td{
+     
+    background-color:rgba(32, 41, 64, 0.5) !important;
+    font-weight: 300 !important;
+    color: white !important;
+ }
+
+tbody tr {
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.112) !important; /* Light grey with 0.5px border */
+}
+
+thead tr {
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.112) !important; /* Light grey with 0.5px border */
+}
+
+.CardBadge{
+    border-radius: .1875rem !important;
+    margin-top: -1.875rem !important;
+    padding: .9375rem !important;
+    background: linear-gradient(60deg, #288c6c, #4ea752);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(76, 175, 80, .4);
+
+}
+
+
+.Badgestyle{
+    border-radius: 12px;
+    background-color: #2bc62b;
+    font-size: 12px;
+}
